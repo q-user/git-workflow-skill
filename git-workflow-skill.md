@@ -1,6 +1,23 @@
 ---
 name: git-workflow
-description: Use when establishing branching strategies, implementing Conventional Commits, creating or reviewing PRs, resolving PR review comments, merging PRs (including CI verification, auto-merge queues, and post-merge cleanup), managing PR review threads, merging PRs with signed commits, handling merge conflicts, creating releases, integrating Git with CI/CD, setting up git hooks (lefthook, captainhook, husky, pre-commit), coordinating multiple agents in parallel with isolated git worktrees, or driving implementation from GitHub Issues in https://github.com/q-user/hh_apply/issues. Also use for post-merge handoff: closing issues, updating GitHub Project statuses (Todo/In Progress/In Review/Done), preparing local repo for the next task, cleaning up merged branches and git worktrees. Trigger on "parallel agents", "worktree", "GitHub issue", "issue", "hh_apply issues", "finish the task", "wrap up", "complete the issue", "prepare for next task", "close the PR and issue", "update project board", or any post-merge cleanup request.
+description: >-
+  Use when establishing branching strategies, implementing Conventional Commits,
+  creating or reviewing PRs, resolving PR review comments, merging PRs (including
+  CI verification, auto-merge queues, and post-merge cleanup), managing PR review
+  threads, merging PRs with signed commits, handling merge conflicts, creating
+  releases, integrating Git with CI/CD, setting up git hooks (lefthook,
+  captainhook, husky, pre-commit), coordinating multiple agents in parallel with
+  isolated git worktrees, or driving implementation from GitHub Issues in
+  https://github.com/q-user/hh_apply/issues.
+
+  Also use for post-merge handoff: closing issues, updating GitHub Project
+  statuses (Todo/In Progress/In Review/Done), preparing local repo for the next
+  task, cleaning up merged branches and git worktrees.
+
+  Trigger on "parallel agents", "worktree", "GitHub issue", "issue",
+  "hh_apply issues", "finish the task", "wrap up", "complete the issue",
+  "prepare for next task", "close the PR and issue", "update project board",
+  or any post-merge cleanup request.
 disable-model-invocation: false
 ---
 
